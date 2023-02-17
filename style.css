@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 .contaner{
     width: 100vw;
     height: 100vh;
@@ -10,12 +11,13 @@
 
 h1{
 font-size: 90px;
-color: rgb(1, 1, 52);
+color: rgb(39, 39, 160);
 margin-bottom: 40px;
+font-family: "Merriweather";
 }
-.zero{
+.p{
     font-size: 90px;
-    color: rgb(1, 1, 52);
+    /* color: rgb(1, 1, 52); */
     margin-bottom: 40px;
 }
 .buttondiv{

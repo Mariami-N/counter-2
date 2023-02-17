@@ -1,21 +1,24 @@
+let num = 0;
+
 let minus=document.querySelector(".minus")
 let reset=document.querySelector(".reset")
 let plus=document.querySelector(".plus")
-let zero=document.querySelector(".zero")
-
-
+let p=document.querySelector(".p")
 
 minus.addEventListener("click", function (){
-    zero -- ;
-    zero.innerHTML=minus.value
+    num -- ;
+    p.innerHTML=num;
+    p.style.color="red"
 })
 
 reset.addEventListener("click", function(){
-    zero===0;
-    zero.innerHTML=reset.value
+    num=0;
+    p.innerHTML=num;
+    p.style.color="rgb(39, 39, 160)";
 })
 
  plus.addEventListener("click", function(){
-    zero ++ ;
-    zero.innerHTML=plus.value
+    num ++ ;
+    p.innerHTML=num;
+    p.style.color="green"
  })
